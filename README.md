@@ -1,23 +1,37 @@
-# Simple Calculator
+# C# Practice
 
-A simple console calculator built with C#, supporting basic arithmetic operations and input validation.
+A collection of small C# console projects created to practice and strengthen core C# programming concepts.
 
-## Features
+## Projects
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Modulus
-- Input validation
-- Prevents division and modulus by zero
-- protective and readable code
+### Simple Calculator
 
-## Concepts Used
+A console calculator that performs basic arithmetic operations with user input validation and protection against division or modulo by zero.
 
-- Variables and Data Types
-- double.TryParse()
-- char.TryParse()
-- while
-- switch
-- Input Validation
+**Concepts practiced:**
+
+* Variables and data types
+* `double.TryParse()`
+* `char.TryParse()`
+* `switch`
+* Loops
+* Conditional logic
+* Input validation
+
+### Restaurant Order
+
+A console application for handling restaurant orders and calculating tax and service charges.
+
+**Concepts practiced:**
+
+* Enums
+* Methods
+* `params`
+* Loops
+* Input validation
+* `TryParse`
+* Basic calculations
+
+## Purpose
+
+This repository contains small projects and exercises developed during my C# learning journey, with a focus on practicing programming fundamentals through implementation.

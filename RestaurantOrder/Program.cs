@@ -8,6 +8,7 @@
         Salad = 30,
         Dessert = 60
     }
+    
     internal class Program
     {
         public static void Order(double tax, double service, params Menue_Items[] items)
@@ -31,12 +32,12 @@
 
             int sum = 0;
             Console.WriteLine("Order details:");
+            
             for (int i = 0; i < items.Length; i++)
             {
                 Console.WriteLine($"{items[i]}: {(int)items[i]}");
                 sum += (int)items[i];
             }
-
 
             Console.WriteLine("-----------------------------------------------------------------------");
             Console.WriteLine($"Total items: {sum}");
@@ -50,6 +51,7 @@
             double Total = sum + Tax_Amount + Service_Amount;
             Console.WriteLine($"Total order: {Total}");
         }
+        
         static void Main(string[] args)
         {
             Order(10,5, Menue_Items.Pizaa, Menue_Items.Juice, Menue_Items.Salad);
